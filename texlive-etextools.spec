@@ -1,3 +1,9 @@
+# revision 20694
+# category Package
+# catalog-ctan /macros/latex/contrib/etextools
+# catalog-date 2010-12-08 18:13:15 +0100
+# catalog-license lppl
+# catalog-version 3.1415926
 Name:		texlive-etextools
 Version:	3.1415926
 Release:	1
@@ -57,6 +63,7 @@ etex and the etoolbox packages.
 %doc %{_texmfdistdir}/source/latex/etextools/etextools.drv
 %doc %{_texmfdistdir}/source/latex/etextools/etextools.dtx
 %doc %{_texmfdistdir}/source/latex/etextools/etextools.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -67,3 +74,5 @@ etex and the etoolbox packages.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
