@@ -6,7 +6,7 @@
 # catalog-version 3.1415926
 Name:		texlive-etextools
 Version:	3.1415926
-Release:	4
+Release:	5
 Summary:	e-TeX tools for LaTeX users and package writers
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/etextools
