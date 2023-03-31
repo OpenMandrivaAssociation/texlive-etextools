@@ -1,6 +1,6 @@
 Name:		texlive-etextools
 Version:	20694
-Release:	1
+Release:	2
 Summary:	e-TeX tools for LaTeX users and package writers
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/etextools
