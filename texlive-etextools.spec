@@ -3,7 +3,7 @@ Version:	20694
 Release:	2
 Summary:	e-TeX tools for LaTeX users and package writers
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/etextools
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/etextools
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/etextools.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/etextools.doc.r%{version}.tar.xz
